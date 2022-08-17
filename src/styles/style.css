@@ -52,7 +52,7 @@ span {
 .info-box{
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
+  width: 420px;
   opacity: 0;
 }
 .info-box div{
@@ -63,11 +63,13 @@ span {
 }
 .infoClass{
   padding: 6px;
-  line-height: 8px;
-  font-size: 14px;
+  padding-top: 4px;
+  line-height: 14px;
+  font-size: 12px;
   border-radius: 5px;
   background-color: rgb(212, 212, 212);
-  width: 200px;
+  width: 300px;
+  min-height: 22px;
 }
 .infoLabel{
   line-height: 8px;
@@ -78,7 +80,7 @@ span {
   margin-left: 16px;
 }
 #ddd{
-  width: 32px;
-  margin-right: 52.5%;
+  max-width: 32px;
+  margin-right: 64%;
 }
 
