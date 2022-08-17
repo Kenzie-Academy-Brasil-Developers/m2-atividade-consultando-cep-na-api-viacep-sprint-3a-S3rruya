@@ -9,16 +9,18 @@
 body {
   background-color: #f3f3f3;
 }
-
-h2 {
-  color: rgb(36, 36, 36);
-}
-
-.form-box {
+main{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+h2 {
+  color: rgb(36, 36, 36);
 }
 
 #cep-form {
@@ -26,8 +28,8 @@ h2 {
 }
 
 button {
-  padding: 8px;
-  font-size: 14px;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
   background-color: rgb(37, 37, 255);
@@ -35,8 +37,8 @@ button {
 }
 
 input {
-  padding: 8px;
-  font-size: 14px;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 5px;
   outline: none;
   background-color: #e0e0e0;
@@ -46,3 +48,37 @@ span {
   color: rgb(63, 63, 63);
   height: 20px;
 }
+
+.info-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  opacity: 0;
+}
+.info-box div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.infoClass{
+  padding: 6px;
+  line-height: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
+  width: 200px;
+}
+.infoLabel{
+  line-height: 8px;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 16px;
+}
+#ddd{
+  width: 32px;
+  margin-right: 52.5%;
+}
+
